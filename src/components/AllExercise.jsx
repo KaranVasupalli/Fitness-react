@@ -28,16 +28,16 @@ const AllExercise = () => {
 
     return (
         <>
-            <h1 className="text-center text-5xl mb-7">All Exercise</h1>
-            <div className='flex flex-wrap gap-6 justify-center'>
+            
+            <div className='flex flex-wrap gap-6 justify-center '>
             {
                 data.map((post) => {
                     const { id, name, gifUrl } = post;
                     return (
                         
-                        <div className=' border ' key={id}>
-                            <h2>{name}</h2>
-                            <img  src={gifUrl} alt={name} className=" h-[400px] w-[430px] " />
+                        <div className=' border px-3 ' key={id}>
+                            <h2 className=' text-center'>{name}</h2>
+                            <img  src={gifUrl} alt={name} className=" h-[400px] w-[410px] " />
                         </div>
                         
                     );

@@ -3,6 +3,7 @@ import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Main2 from "../components/Main2";
 
+
 const Homepage = ()=>{
     return(
         <>
