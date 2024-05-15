@@ -2,7 +2,7 @@ const Main =()=>{
     return(
         <>
             <div className=" h-[700px]">
-                <div className=" bg-[url('.\assets\main-img.jpg')] h-[100%] bg-cover">
+                <div className="img1">
                     <div className=" text-white flex justify-center items-center h-full flex-col gap-8">    
                         <span className=" text-5xl">FASTER, STRONGER </span>
                         <span className=" text-5xl">FIGHT TO THE END</span>
